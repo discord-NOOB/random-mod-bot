@@ -1,0 +1,23 @@
+{
+    "name": "moderation-bot",
+    "version": "1.0.0",
+    "description": "Advanced Discord Moderation Bot with Discord.js v14 and TypeScript",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "dev": "ts-node src/index.ts",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^14.18.0",
+        "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.19",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.3"
+    }
+}
